@@ -1,0 +1,128 @@
+<?php
+$appleMenuCatalog = [
+    'mac' => [
+        'title' => 'Mac',
+        'eyebrow' => 'Apple Computing',
+        'description' => 'Explora laptops, productividad y accesorios para trabajo, estudio y creacion.',
+        'hero_image' => 'img/demo/home-assets/apple/macbook-air.png',
+        'cards' => [
+            ['title' => 'MacBook Air', 'copy' => 'Ligera, rapida y lista para todo el dia.', 'image' => 'img/demo/home-assets/apple/macbook-air.png', 'link' => 'product.html?sku=macbook-air', 'price' => 'Desde S/ 299.90'],
+            ['title' => 'MacBook Pro', 'copy' => 'Mas potencia para diseno, edicion y flujos exigentes.', 'image' => 'img/demo/home-assets/apple/macbook-air.png', 'link' => 'product.html?sku=macbook-pro', 'price' => 'Linea Pro'],
+            ['title' => 'Accesorios para Mac', 'copy' => 'Teclados, adaptadores y carga para completar tu setup.', 'image' => 'img/demo/home-assets/apple/usb-c-power-adapter.jpg', 'link' => 'product.html?sku=magic-keyboard', 'price' => 'Accesorios'],
+        ],
+    ],
+    'macbook-air' => [
+        'title' => 'MacBook Air',
+        'eyebrow' => 'Mac',
+        'description' => 'El equipo mas liviano para estudio, oficina y trabajo creativo.',
+        'hero_image' => 'img/demo/home-assets/apple/macbook-air.png',
+        'cards' => [
+            ['title' => 'MacBook Air M3 13"', 'copy' => 'Portabilidad premium y autonomia para todo el dia.', 'image' => 'img/demo/home-assets/apple/macbook-air.png', 'link' => 'product.html?sku=macbook-air', 'price' => 'S/ 299.90'],
+        ],
+    ],
+    'macbook-pro' => [
+        'title' => 'MacBook Pro',
+        'eyebrow' => 'Mac',
+        'description' => 'Rendimiento superior para edicion, codigo y produccion profesional.',
+        'hero_image' => 'img/demo/home-assets/apple/macbook-air.png',
+        'cards' => [
+            ['title' => 'MacBook Pro', 'copy' => 'Potencia extra para flujos de trabajo avanzados.', 'image' => 'img/demo/home-assets/apple/macbook-air.png', 'link' => 'product.html?sku=macbook-pro', 'price' => 'Configuracion Pro'],
+        ],
+    ],
+    'mac-accessories' => [
+        'title' => 'Accesorios para Mac',
+        'eyebrow' => 'Mac',
+        'description' => 'Teclados, adaptadores y energia para escritorio o movilidad.',
+        'hero_image' => 'img/demo/home-assets/apple/usb-c-power-adapter.jpg',
+        'cards' => [
+            ['title' => 'Magic Keyboard', 'copy' => 'Comodidad y productividad para Mac.', 'image' => 'img/demo/home-assets/apple/usb-c-power-adapter.jpg', 'link' => 'product.html?sku=magic-keyboard', 'price' => 'Accesorio'],
+            ['title' => 'Adaptador USB-C 20W', 'copy' => 'Carga rapida y compacta.', 'image' => 'img/demo/home-assets/apple/usb-c-power-adapter.jpg', 'link' => 'product.html?sku=usb-c-power-adapter', 'price' => 'S/ 19'],
+        ],
+    ],
+    'ipad' => [
+        'title' => 'iPad',
+        'eyebrow' => 'Apple Tablet',
+        'description' => 'Modelos para estudio, dibujo, productividad y entretenimiento.',
+        'hero_image' => 'img/demo/home-assets/apple/ipad.png',
+        'cards' => [
+            ['title' => 'Todos los iPad', 'copy' => 'Una vista general de la linea iPad.', 'image' => 'img/demo/home-assets/apple/ipad.png', 'link' => 'product.html?sku=ipad', 'price' => 'Coleccion'],
+            ['title' => 'iPad Air', 'copy' => 'Potente, ligera y versatil.', 'image' => 'img/demo/home-assets/apple/ipad.png', 'link' => 'product.html?sku=ipad-air', 'price' => 'Desde S/ 87'],
+            ['title' => 'Accesorios para iPad', 'copy' => 'Apple Pencil, teclados y proteccion.', 'image' => 'img/demo/home-assets/apple/portable-charger.jpg', 'link' => 'product.html?sku=apple-pencil', 'price' => 'Accesorios'],
+        ],
+    ],
+    'ipad-air' => [
+        'title' => 'iPad Air',
+        'eyebrow' => 'iPad',
+        'description' => 'El punto medio ideal entre movilidad, potencia y creatividad.',
+        'hero_image' => 'img/demo/home-assets/apple/ipad.png',
+        'cards' => [
+            ['title' => 'iPad Air 11"', 'copy' => 'Perfecta para clases, trabajo y dibujo.', 'image' => 'img/demo/home-assets/apple/ipad.png', 'link' => 'product.html?sku=ipad-air', 'price' => 'Desde S/ 87'],
+        ],
+    ],
+    'ipad-accessories' => [
+        'title' => 'Accesorios para iPad',
+        'eyebrow' => 'iPad',
+        'description' => 'Mas productividad y proteccion para sacar provecho al iPad.',
+        'hero_image' => 'img/demo/home-assets/apple/portable-charger.jpg',
+        'cards' => [
+            ['title' => 'Apple Pencil', 'copy' => 'Ideal para notas, ilustracion y precision.', 'image' => 'img/demo/home-assets/apple/ipad.png', 'link' => 'product.html?sku=apple-pencil', 'price' => 'Accesorio'],
+            ['title' => 'Cargador portatil', 'copy' => 'Energia extra para movilidad.', 'image' => 'img/demo/home-assets/apple/portable-charger.jpg', 'link' => 'product.html?sku=portable-charger', 'price' => 'S/ 59'],
+        ],
+    ],
+    'iphone' => [
+        'title' => 'Todos los iPhone',
+        'eyebrow' => 'Apple Smartphone',
+        'description' => 'Explora la familia iPhone y encuentra el modelo para cada perfil de cliente.',
+        'hero_image' => 'img/demo/home-assets/apple/iphone-full.jpg',
+        'cards' => [
+            ['title' => 'iPhone 17 Pro', 'copy' => 'Version premium para fotografia y rendimiento.', 'image' => 'img/demo/home-assets/apple/iphone-full.jpg', 'link' => 'menu-category.php?menu=iphone-17-pro', 'price' => 'Nueva generacion'],
+            ['title' => 'iPhone 17', 'copy' => 'Balance entre potencia, bateria y camara.', 'image' => 'img/demo/home-assets/apple/iphone.png', 'link' => 'menu-category.php?menu=iphone-17', 'price' => 'Nueva generacion'],
+            ['title' => 'iPhone 15', 'copy' => 'La opcion actual mas conocida en tu tienda.', 'image' => 'img/demo/home-assets/apple/iphone-full.jpg', 'link' => 'menu-category.php?menu=iphone-15', 'price' => 'Disponible'],
+            ['title' => 'Accesorios para iPhone', 'copy' => 'Carga, fundas y extras para rotacion rapida.', 'image' => 'img/demo/home-assets/apple/portable-charger.jpg', 'link' => 'menu-category.php?menu=iphone-accessories', 'price' => 'Complementos'],
+        ],
+    ],
+    'iphone-17-pro' => ['title' => 'iPhone 17 Pro', 'eyebrow' => 'iPhone', 'description' => 'Version premium pensada para clientes que buscan lo mas alto de la linea.', 'hero_image' => 'img/demo/home-assets/apple/iphone-full.jpg', 'cards' => [['title' => 'iPhone 17 Pro', 'copy' => 'Camara avanzada, acabado premium y rendimiento superior.', 'image' => 'img/demo/home-assets/apple/iphone-full.jpg', 'link' => 'product.html?sku=iphone', 'price' => 'Version Pro']]], 
+    'iphone-17' => ['title' => 'iPhone 17', 'eyebrow' => 'iPhone', 'description' => 'La linea equilibrada para ventas generales y clientes que quieren renovar.', 'hero_image' => 'img/demo/home-assets/apple/iphone.png', 'cards' => [['title' => 'iPhone 17', 'copy' => 'Rendimiento, bateria y look moderno para la mayoria de usuarios.', 'image' => 'img/demo/home-assets/apple/iphone.png', 'link' => 'product.html?sku=iphone', 'price' => 'Nueva linea']]],
+    'iphone-17e' => ['title' => 'iPhone 17e', 'eyebrow' => 'iPhone', 'description' => 'Entrada a la nueva generacion con enfoque en valor y ecosistema Apple.', 'hero_image' => 'img/demo/home-assets/apple/iphone.png', 'cards' => [['title' => 'iPhone 17e', 'copy' => 'Un punto de entrada mas accesible a la gama iPhone.', 'image' => 'img/demo/home-assets/apple/iphone.png', 'link' => 'product.html?sku=iphone', 'price' => 'Version de entrada']]],
+    'iphone-16-pro' => ['title' => 'iPhone 16 Pro', 'eyebrow' => 'iPhone', 'description' => 'Opcion premium de generacion anterior con mucha fuerza comercial.', 'hero_image' => 'img/demo/home-assets/apple/iphone-full.jpg', 'cards' => [['title' => 'iPhone 16 Pro', 'copy' => 'Todavia fuerte para vitrina premium y ventas consultivas.', 'image' => 'img/demo/home-assets/apple/iphone-full.jpg', 'link' => 'product.html?sku=iphone', 'price' => 'Generacion anterior']]],
+    'iphone-16' => ['title' => 'iPhone 16', 'eyebrow' => 'iPhone', 'description' => 'Modelo base de alta rotacion para publico amplio.', 'hero_image' => 'img/demo/home-assets/apple/iphone.png', 'cards' => [['title' => 'iPhone 16', 'copy' => 'Balance de precio, rendimiento y confianza de marca.', 'image' => 'img/demo/home-assets/apple/iphone.png', 'link' => 'product.html?sku=iphone', 'price' => 'Alta rotacion']]],
+    'iphone-15' => ['title' => 'iPhone 15', 'eyebrow' => 'iPhone', 'description' => 'Modelo muy util para ofertas, renovaciones y conversion comercial.', 'hero_image' => 'img/demo/home-assets/apple/iphone-full.jpg', 'cards' => [['title' => 'iPhone 15', 'copy' => 'Excelente opcion para promos y entrada a gama alta.', 'image' => 'img/demo/home-assets/apple/iphone-full.jpg', 'link' => 'product.html?sku=iphone', 'price' => 'Disponible hoy']]],
+    'iphone-accessories' => ['title' => 'Accesorios para iPhone', 'eyebrow' => 'iPhone', 'description' => 'Fundas, carga y extras de buena rotacion para complementar la venta principal.', 'hero_image' => 'img/demo/home-assets/apple/portable-charger.jpg', 'cards' => [['title' => 'Cargador portatil', 'copy' => 'Complemento facil de vender junto al iPhone.', 'image' => 'img/demo/home-assets/apple/portable-charger.jpg', 'link' => 'product.html?sku=portable-charger', 'price' => 'S/ 59'], ['title' => 'Adaptador USB-C 20W', 'copy' => 'Carga rapida y compacta.', 'image' => 'img/demo/home-assets/apple/usb-c-power-adapter.jpg', 'link' => 'product.html?sku=usb-c-power-adapter', 'price' => 'S/ 19']]],
+    'watch' => ['title' => 'Todos los Watch', 'eyebrow' => 'Apple Watch', 'description' => 'Relojes, correas y accesorios para salud, deporte y uso diario.', 'hero_image' => 'img/demo/home-assets/apple/apple-watch.png', 'cards' => [['title' => 'Watch Ultra', 'copy' => 'Version deportiva y robusta.', 'image' => 'img/demo/home-assets/apple/apple-watch.png', 'link' => 'menu-category.php?menu=watch-ultra', 'price' => 'Linea Ultra'], ['title' => 'Watch Series', 'copy' => 'La linea mas reconocida para el dia a dia.', 'image' => 'img/demo/home-assets/apple/apple-watch.png', 'link' => 'menu-category.php?menu=watch-series', 'price' => 'Series'], ['title' => 'Watch SE', 'copy' => 'Entrada mas accesible con ecosistema Apple Watch.', 'image' => 'img/demo/home-assets/apple/apple-watch.png', 'link' => 'menu-category.php?menu=watch-se', 'price' => 'SE']]],
+    'watch-ultra' => ['title' => 'Apple Watch Ultra', 'eyebrow' => 'Apple Watch', 'description' => 'Pensado para un perfil mas premium y outdoor.', 'hero_image' => 'img/demo/home-assets/apple/apple-watch.png', 'cards' => [['title' => 'Apple Watch Ultra', 'copy' => 'Pantalla grande y look premium.', 'image' => 'img/demo/home-assets/apple/apple-watch.png', 'link' => 'product.html?sku=apple-watch', 'price' => 'Ultra']]],
+    'watch-series' => ['title' => 'Apple Watch Series', 'eyebrow' => 'Apple Watch', 'description' => 'La referencia general para salud, notificaciones y entrenamiento.', 'hero_image' => 'img/demo/home-assets/apple/apple-watch.png', 'cards' => [['title' => 'Apple Watch Series', 'copy' => 'La opcion central de la familia Watch.', 'image' => 'img/demo/home-assets/apple/apple-watch.png', 'link' => 'product.html?sku=apple-watch', 'price' => 'Series']]],
+    'watch-se' => ['title' => 'Apple Watch SE', 'eyebrow' => 'Apple Watch', 'description' => 'Version de entrada con buen equilibrio entre funciones y precio.', 'hero_image' => 'img/demo/home-assets/apple/apple-watch.png', 'cards' => [['title' => 'Apple Watch SE', 'copy' => 'Ideal para primeras compras y regalos.', 'image' => 'img/demo/home-assets/apple/apple-watch.png', 'link' => 'product.html?sku=apple-watch', 'price' => 'SE']]],
+    'watch-bands' => ['title' => 'Correas para Watch', 'eyebrow' => 'Apple Watch', 'description' => 'Accesorios para renovar el look del reloj y ampliar ticket.', 'hero_image' => 'img/demo/home-assets/apple/apple-watch.png', 'cards' => [['title' => 'Correas para Watch', 'copy' => 'Complemento de alta rotacion para vitrina.', 'image' => 'img/demo/home-assets/apple/apple-watch.png', 'link' => 'product.html?sku=apple-watch', 'price' => 'Accesorios']]],
+    'watch-accessories' => ['title' => 'Accesorios para Watch', 'eyebrow' => 'Apple Watch', 'description' => 'Carga, proteccion y extras para la linea Watch.', 'hero_image' => 'img/demo/home-assets/apple/apple-watch.png', 'cards' => [['title' => 'Accesorios Watch', 'copy' => 'Carga y complementos para el ecosistema.', 'image' => 'img/demo/home-assets/apple/apple-watch.png', 'link' => 'product.html?sku=apple-watch', 'price' => 'Accesorios']]],
+    'airpods' => ['title' => 'Todos los AirPods', 'eyebrow' => 'Apple Audio', 'description' => 'Modelos in-ear, premium y accesorios para audio Apple.', 'hero_image' => 'img/demo/home-assets/apple/airpods-pro.png', 'cards' => [['title' => 'AirPods 4', 'copy' => 'Entrada actual para audio Apple.', 'image' => 'img/demo/home-assets/apple/airpods-pro.png', 'link' => 'menu-category.php?menu=airpods-4', 'price' => 'Linea base'], ['title' => 'AirPods Pro', 'copy' => 'Cancelacion de ruido y venta premium.', 'image' => 'img/demo/home-assets/apple/airpods-pro.png', 'link' => 'menu-category.php?menu=airpods-pro', 'price' => 'Pro'], ['title' => 'AirPods Max', 'copy' => 'La opcion mas premium de la familia.', 'image' => 'img/demo/home-assets/apple/airpods-max.jpg', 'link' => 'menu-category.php?menu=airpods-max', 'price' => 'Max']]],
+    'airpods-4' => ['title' => 'AirPods 4', 'eyebrow' => 'AirPods', 'description' => 'Opcion de entrada con integracion directa al ecosistema Apple.', 'hero_image' => 'img/demo/home-assets/apple/airpods-pro.png', 'cards' => [['title' => 'AirPods 4', 'copy' => 'Audio rapido y practico para ventas masivas.', 'image' => 'img/demo/home-assets/apple/airpods-pro.png', 'link' => 'product.html?sku=airpods-pro', 'price' => 'Linea base']]],
+    'airpods-pro' => ['title' => 'AirPods Pro', 'eyebrow' => 'AirPods', 'description' => 'La linea mas fuerte para audio premium y cancelacion de ruido.', 'hero_image' => 'img/demo/home-assets/apple/airpods-pro.png', 'cards' => [['title' => 'AirPods Pro', 'copy' => 'Premium, comodos y con gran rotacion.', 'image' => 'img/demo/home-assets/apple/airpods-pro.png', 'link' => 'product.html?sku=airpods-pro', 'price' => 'S/ 78']]],
+    'airpods-max' => ['title' => 'AirPods Max', 'eyebrow' => 'AirPods', 'description' => 'La opcion premium over-ear con mejor presencia visual en vitrina.', 'hero_image' => 'img/demo/home-assets/apple/airpods-max.jpg', 'cards' => [['title' => 'AirPods Max', 'copy' => 'Audio premium y look fuerte para ticket alto.', 'image' => 'img/demo/home-assets/apple/airpods-max.jpg', 'link' => 'product.html?sku=airpods-max', 'price' => 'S/ 549']]],
+    'airpods-accessories' => ['title' => 'Accesorios para AirPods', 'eyebrow' => 'AirPods', 'description' => 'Carga y complementos para ampliar la venta de audio.', 'hero_image' => 'img/demo/home-assets/apple/usb-c-power-adapter.jpg', 'cards' => [['title' => 'Carga para AirPods', 'copy' => 'Accesorio pequeño pero util en caja o mostrador.', 'image' => 'img/demo/home-assets/apple/usb-c-power-adapter.jpg', 'link' => 'product.html?sku=usb-c-power-adapter', 'price' => 'Complemento']]],
+    'tv-home' => ['title' => 'TV y Hogar', 'eyebrow' => 'Apple Home', 'description' => 'Productos para entretenimiento, sonido y hogar conectado.', 'hero_image' => 'img/demo/home-assets/apple/apple-tv-4k.png', 'cards' => [['title' => 'Apple TV 4K', 'copy' => 'Entretenimiento y streaming para el hogar.', 'image' => 'img/demo/home-assets/apple/apple-tv-4k.png', 'link' => 'menu-category.php?menu=apple-tv-4k', 'price' => 'TV'], ['title' => 'HomePod mini', 'copy' => 'Sonido compacto para casa inteligente.', 'image' => 'img/demo/home-assets/apple/homepod-mini.png', 'link' => 'menu-category.php?menu=homepod-mini', 'price' => 'Audio']]],
+    'apple-tv-4k' => ['title' => 'Apple TV 4K', 'eyebrow' => 'TV y Hogar', 'description' => 'Centro multimedia premium para streaming y ecosistema Apple.', 'hero_image' => 'img/demo/home-assets/apple/apple-tv-4k.png', 'cards' => [['title' => 'Apple TV 4K', 'copy' => 'Ideal para vitrina de entretenimiento.', 'image' => 'img/demo/home-assets/apple/apple-tv-4k.png', 'link' => 'product.html?sku=apple-tv-4k', 'price' => 'S/ 69']]],
+    'homepod' => ['title' => 'HomePod', 'eyebrow' => 'TV y Hogar', 'description' => 'Audio para casa con ecosistema Apple y control inteligente.', 'hero_image' => 'img/demo/home-assets/apple/homepod-mini.png', 'cards' => [['title' => 'HomePod', 'copy' => 'Audio inteligente para hogar Apple.', 'image' => 'img/demo/home-assets/apple/homepod-mini.png', 'link' => 'product.html?sku=homepod-mini', 'price' => 'Home audio']]],
+    'homepod-mini' => ['title' => 'HomePod mini', 'eyebrow' => 'TV y Hogar', 'description' => 'El formato compacto para entrar al hogar inteligente.', 'hero_image' => 'img/demo/home-assets/apple/homepod-mini.png', 'cards' => [['title' => 'HomePod mini', 'copy' => 'Compacto, elegante y muy facil de vender.', 'image' => 'img/demo/home-assets/apple/homepod-mini.png', 'link' => 'product.html?sku=homepod-mini', 'price' => 'S/ 130']]],
+    'home-accessories' => ['title' => 'Accesorios para el hogar', 'eyebrow' => 'TV y Hogar', 'description' => 'Complementos para entretenimiento y uso diario en casa.', 'hero_image' => 'img/demo/home-assets/apple/apple-tv-4k.png', 'cards' => [['title' => 'Accesorios hogar', 'copy' => 'Complementos para TV y audio en casa.', 'image' => 'img/demo/home-assets/apple/apple-tv-4k.png', 'link' => 'product.html?sku=apple-tv-4k', 'price' => 'Hogar']]],
+    'accessories' => ['title' => 'Todos los accesorios', 'eyebrow' => 'Accesorios', 'description' => 'Carga, fundas, cables y extras de alta rotacion para complementar la tienda.', 'hero_image' => 'img/demo/home-assets/apple/usb-c-power-adapter.jpg', 'cards' => [['title' => 'Cargadores y cables', 'copy' => 'Venta constante y ticket adicional.', 'image' => 'img/demo/home-assets/apple/usb-c-power-adapter.jpg', 'link' => 'menu-category.php?menu=chargers-cables', 'price' => 'Esenciales'], ['title' => 'Teclados y mouse', 'copy' => 'Productividad para Mac y iPad.', 'image' => 'img/demo/home-assets/apple/usb-c-power-adapter.jpg', 'link' => 'menu-category.php?menu=keyboards-mice', 'price' => 'Productividad']]],
+    'chargers-cables' => ['title' => 'Cargadores y cables', 'eyebrow' => 'Accesorios', 'description' => 'Carga rapida, reposicion y accesorios faciles de vender.', 'hero_image' => 'img/demo/home-assets/apple/usb-c-power-adapter.jpg', 'cards' => [['title' => 'Adaptador USB-C 20W', 'copy' => 'Uno de los accesorios mas utiles para rotacion diaria.', 'image' => 'img/demo/home-assets/apple/usb-c-power-adapter.jpg', 'link' => 'product.html?sku=usb-c-power-adapter', 'price' => 'S/ 19']]],
+    'cases' => ['title' => 'Fundas', 'eyebrow' => 'Accesorios', 'description' => 'Proteccion para complementar la venta principal.', 'hero_image' => 'img/demo/home-assets/apple/portable-charger.jpg', 'cards' => [['title' => 'Fundas y proteccion', 'copy' => 'Complemento ideal para iPhone y iPad.', 'image' => 'img/demo/home-assets/apple/portable-charger.jpg', 'link' => 'product.html?sku=portable-charger', 'price' => 'Proteccion']]],
+    'backpacks' => ['title' => 'Mochilas', 'eyebrow' => 'Accesorios', 'description' => 'Accesorios de movilidad para MacBook, iPad y uso diario.', 'hero_image' => 'img/demo/home-assets/apple/portable-charger.jpg', 'cards' => [['title' => 'Movilidad y transporte', 'copy' => 'Bolsos y accesorios para llevar dispositivos.', 'image' => 'img/demo/home-assets/apple/portable-charger.jpg', 'link' => 'product.html?sku=portable-charger', 'price' => 'Movilidad']]],
+    'keyboards-mice' => ['title' => 'Teclados y mouse', 'eyebrow' => 'Accesorios', 'description' => 'Productividad para escritorio, oficina y estudio.', 'hero_image' => 'img/demo/home-assets/apple/usb-c-power-adapter.jpg', 'cards' => [['title' => 'Magic Keyboard', 'copy' => 'Mejora la productividad en escritorio.', 'image' => 'img/demo/home-assets/apple/usb-c-power-adapter.jpg', 'link' => 'product.html?sku=magic-keyboard', 'price' => 'Productividad']]],
+    'adapters' => ['title' => 'Adaptadores', 'eyebrow' => 'Accesorios', 'description' => 'Conectividad y compatibilidad para equipos Apple.', 'hero_image' => 'img/demo/home-assets/apple/usb-c-power-adapter.jpg', 'cards' => [['title' => 'Adaptador USB-C', 'copy' => 'Carga y compatibilidad para distintos escenarios.', 'image' => 'img/demo/home-assets/apple/usb-c-power-adapter.jpg', 'link' => 'product.html?sku=usb-c-power-adapter', 'price' => 'Adaptadores']]],
+    'promotions' => ['title' => 'Promociones', 'eyebrow' => 'Ofertas', 'description' => 'Promos destacadas para empujar conversion y ticket.', 'hero_image' => 'img/demo/home-assets/apple/iphone-full.jpg', 'cards' => [['title' => 'iPhone en promocion', 'copy' => 'Modelos destacados con enfoque comercial.', 'image' => 'img/demo/home-assets/apple/iphone-full.jpg', 'link' => 'menu-category.php?menu=promo-iphone', 'price' => 'Promo'], ['title' => 'Mac en promocion', 'copy' => 'Ofertas para equipos de productividad.', 'image' => 'img/demo/home-assets/apple/macbook-air.png', 'link' => 'menu-category.php?menu=promo-mac', 'price' => 'Promo']]],
+    'promo-iphone' => ['title' => 'iPhone en promocion', 'eyebrow' => 'Promociones', 'description' => 'Empuja renovaciones con ofertas claras y modelos de alta demanda.', 'hero_image' => 'img/demo/home-assets/apple/iphone-full.jpg', 'cards' => [['title' => 'iPhone destacado', 'copy' => 'Promocion activa para conversion rapida.', 'image' => 'img/demo/home-assets/apple/iphone-full.jpg', 'link' => 'product.html?sku=iphone', 'price' => 'Promo iPhone']]],
+    'promo-mac' => ['title' => 'Mac en promocion', 'eyebrow' => 'Promociones', 'description' => 'Campanas para productividad, estudio y ventas premium.', 'hero_image' => 'img/demo/home-assets/apple/macbook-air.png', 'cards' => [['title' => 'MacBook Air en promo', 'copy' => 'Una promo fuerte para el segmento productividad.', 'image' => 'img/demo/home-assets/apple/macbook-air.png', 'link' => 'product.html?sku=macbook-air', 'price' => 'Promo Mac']]],
+    'promo-combos' => ['title' => 'Combos', 'eyebrow' => 'Promociones', 'description' => 'Arma packs de equipo principal mas accesorios para subir ticket.', 'hero_image' => 'img/demo/home-assets/apple/airpods-pro.png', 'cards' => [['title' => 'Combo iPhone + accesorios', 'copy' => 'Venta consultiva con mejor margen.', 'image' => 'img/demo/home-assets/apple/airpods-pro.png', 'link' => 'menu-category.php?menu=promotions', 'price' => 'Combo']]],
+    'promo-liquidation' => ['title' => 'Liquidacion', 'eyebrow' => 'Promociones', 'description' => 'Espacio para mover stock puntual o campañas temporales.', 'hero_image' => 'img/demo/home-assets/apple/ipad.png', 'cards' => [['title' => 'Productos en liquidacion', 'copy' => 'Ideal para rotar stock o temporadas.', 'image' => 'img/demo/home-assets/apple/ipad.png', 'link' => 'menu-category.php?menu=promotions', 'price' => 'Liquidacion']]],
+    'support' => ['title' => 'Soporte Tecnico', 'eyebrow' => 'Servicio', 'description' => 'Canales de atencion, soporte y seguimiento para la tienda.', 'hero_image' => 'img/demo/home-assets/apple/macbook-air.png', 'cards' => [['title' => 'Servicio tecnico', 'copy' => 'Atencion y diagnostico de equipos.', 'image' => 'img/demo/home-assets/apple/macbook-air.png', 'link' => 'login.html', 'price' => 'Servicio'], ['title' => 'Agenda tu cita', 'copy' => 'Reserva una atencion especializada.', 'image' => 'img/demo/home-assets/apple/apple-watch.png', 'link' => 'login.html', 'price' => 'Agenda']]],
+    'support-service' => ['title' => 'Servicio tecnico', 'eyebrow' => 'Soporte', 'description' => 'Ingreso y revision de equipos Apple.', 'hero_image' => 'img/demo/home-assets/apple/macbook-air.png', 'cards' => [['title' => 'Servicio tecnico', 'copy' => 'Revision, diagnostico y seguimiento.', 'image' => 'img/demo/home-assets/apple/macbook-air.png', 'link' => 'login.html', 'price' => 'Atencion']]],
+    'support-appointment' => ['title' => 'Agenda tu cita', 'eyebrow' => 'Soporte', 'description' => 'Reserva atencion y organiza la visita del cliente.', 'hero_image' => 'img/demo/home-assets/apple/apple-watch.png', 'cards' => [['title' => 'Agenda tu cita', 'copy' => 'Organiza una atencion mas profesional.', 'image' => 'img/demo/home-assets/apple/apple-watch.png', 'link' => 'login.html', 'price' => 'Reserva']]],
+    'support-status' => ['title' => 'Estado de equipo', 'eyebrow' => 'Soporte', 'description' => 'Seguimiento y consulta del proceso tecnico.', 'hero_image' => 'img/demo/home-assets/apple/iphone.png', 'cards' => [['title' => 'Estado de equipo', 'copy' => 'Consulta estado y avance de servicio.', 'image' => 'img/demo/home-assets/apple/iphone.png', 'link' => 'login.html', 'price' => 'Seguimiento']]],
+    'support-software' => ['title' => 'Ayuda de software', 'eyebrow' => 'Soporte', 'description' => 'Configuracion, respaldo, restauracion y ayuda de uso.', 'hero_image' => 'img/demo/home-assets/apple/ipad.png', 'cards' => [['title' => 'Ayuda de software', 'copy' => 'Soporte funcional para usuarios Apple.', 'image' => 'img/demo/home-assets/apple/ipad.png', 'link' => 'login.html', 'price' => 'Ayuda']]],
+];
+
+function getAppleMenuPage($slug, $catalog)
+{
+    return isset($catalog[$slug]) ? $catalog[$slug] : null;
+}
